@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>My First Bootstrapsite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-white navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/blue.png" width="40" height="40" alt="Logo">
+                Ride the Waves
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bucket List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="container-fluid carousel slide p-0" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/siargao.jpg" class="img-fluid w-100" alt="Siargao">
+                <div class="carousel-caption">
+                    <h5>Siargao</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/mabini.jpg" class="img-fluid w-100" alt="Mabini, Batangas">
+                <div class="carousel-caption">
+                    <h5>Mabini, Batangas</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/boracay.png" class="img-fluid w-100" alt="Boracay Island">
+                <div class="carousel-caption">
+                    <h5>Boracay Island</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/coron.jpg" class="img-fluid w-100" alt="Coron">
+                <div class="carousel-caption">
+                    <h5>Coron</h5>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <h1 class="display-4 mb-3">Ride the Waves</h1>
+                <p>
+                    A place to discover the Philippines' stunning beaches and hidden water destinations. From relaxing shorelines to thrilling water activities, it highlights the beauty of nature and the adventures that come with it.
+                </p>
+                <p>
+                    If you're looking for breathtaking beach destinations, the Philippines has plenty to offer. With its clear waters, powdery sands, and tropical charm, it's the perfect place for a seaside escape. You might want to check out spots like <b>Coron</b>, known for its towering limestone cliffs and hidden lagoons, or <b>Boracay</b>, with its iconic white sand and vibrant nightlife. <b>Panglao</b> and <b>Siargao</b> are also worth visiting, each offering unique coastal scenery and a relaxing island vibe.
+                </p>
+                <p>
+                    But beaches aren’t the only gems here. Some destinations include stunning lakes, rivers, and waterfalls that showcase the country's rich natural beauty. Imagine paddling through a peaceful lagoon, taking a boat ride through a winding river, or discovering secluded coves that feel like your own private paradise.
+                </p>
+                <p>
+                    There’s no shortage of things to do, whether you're up for an adventure or just want to unwind. You could try island hopping, diving into crystal-clear waters, or even surfing some of the best waves in the region. If you prefer something more laid-back, watching the sunset by the shore or exploring local seafood spots might be more your speed. <b>Whatever you're into, there’s always something waiting for you by the water.</b>
+                </p>
+                <button type="button" class="btn btn-lg btn-primary">Contact me</button>
+                <button type="button" class="btn btn-lg btn-secondary">See more</button>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <img src="images/Blue2.png" class="img-fluid" alt="Ride the Waves">
+            </div>
+        </div>
+    </div>
+    
+    <section id="features">
+      <div class="bg-light">
+          <div class="container-fluid py-5">
+              <div class="row">
+                  <h2 class="mb-3">Recommended Activities</h2>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card border-0">
+                          <div class="ratio ratio-16x9">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/M_HxGapPbMQ?si=9D18rBEpE1R9FKJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </div>
+                          <div class="card-body">
+                              <h5 class="card-heading">Parasailing in Boracay</h5>
+                              <p>
+                                  Experience the thrill of parasailing in Boracay as you soar high above its crystal-clear waters. Enjoy breathtaking aerial views of White Beach and the surrounding islands while feeling the rush of the ocean breeze. Perfect for adventure seekers looking for a unique way to take in Boracay’s stunning scenery.
+                              </p>
+                              <div class="ratio ratio-16x9">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62449.20670960315!2d121.88602915898993!3d11.969280144786048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a53c2f324b4ee7%3A0xa738e81e5e6dda36!2sBoracay!5e0!3m2!1sen!2sph!4v1742012290082!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              </div>
+                              <button type="button" class="btn btn-sm btn-primary">See more</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card border-0">
+                          <div class="ratio ratio-16x9">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/Ov21ndzgGdc?si=PMA1YCtQiy1vLOHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </div>
+                          <div class="card-body">
+                              <h5 class="card-heading">Surfing in Siargao</h5>
+                              <p>
+                                  Ride the world-famous waves of Siargao, the surfing capital of the Philippines. Whether you're a beginner or a pro, spots like Cloud 9 offer the perfect waves for an unforgettable surf session. Feel the rush, embrace the island vibe, and experience why Siargao is a must-visit for surfers.
+                              </p>
+                              <div class="ratio ratio-16x9">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251542.95632665872!2d125.89454676916314!3d9.904053885686904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3304043652d9e9b3%3A0xd4c56a60c9a11b84!2sSiargao%20Island!5e0!3m2!1sen!2sph!4v1742012428120!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              </div>
+                              <button type="button" class="btn btn-sm btn-primary">See more</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card border-0">
+                          <div class="ratio ratio-16x9">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/760uZJUTg_8?si=iKd3jprmFBN4pY3d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          </div>
+                          <div class="card-body">
+                              <h5 class="card-heading">Scuba Diving in Mabini</h5>
+                              <p>
+                                  Discover the vibrant underwater world of Batangas, a top scuba diving destination in the Philippines. With crystal-clear waters and thriving marine life, spots like Anilao offer breathtaking coral reefs, diverse fish species, and even mesmerizing macro photography opportunities. Perfect for both beginners and seasoned divers!
+                              </p>
+                              <div class="ratio ratio-16x9">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124027.92662789811!2d120.76106522778457!3d13.726155609962275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd0747a21db82d%3A0x6987772247cd8444!2sMabini%2C%20Batangas!5e0!3m2!1sen!2sph!4v1742012453457!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              </div>
+                              <button type="button" class="btn btn-sm btn-primary">See more</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-light text-center py-4">
+        <div class="container p-4 pb-0">
+            <section>
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2">Email address</label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="text-center p-3 bg-black">
+            © 2020 Copyright
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
